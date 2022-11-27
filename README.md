@@ -6,7 +6,7 @@ It's only for 320x240 pixel ILI9341 or ILI9342 TFT on ESP32.
 
 
 The [display driver for M5Stack](https://github.com/m5stack/M5Stack/tree/master/src) is somewhat inconvenient, because it's huge in
-source, undocument and doesnt derive from Adafruit GFX. And the header file did not help either.
+source, undocumented and doesnt derive from Adafruit GFX. And the header file did not help either.
 
 Additionally, i don't want to include the whole M5 stuff in my projects, as i need every byte of RAM..
 
