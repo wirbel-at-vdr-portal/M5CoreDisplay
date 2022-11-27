@@ -1,17 +1,6 @@
-/***************************************************
-  Arduino TFT graphics library targeted at ESP8266
-  and ESP32 based boards.
-
-  This is a standalone library that contains the
-  hardware driver, the graphics functions and the
-  proportional fonts.
-
-  The larger fonts are Run Length Encoded to reduce their
-  size.
-
-  Created by Bodmer 2/12/16
-  Bodmer: Added RPi 16 bit display support
- ****************************************************/
+/*******************************************************************************
+ * M5CoreDisplay, a ILI934x driver for M5 Core BASIC.
+ ******************************************************************************/
 
 #include <pgmspace.h>
 #include <SPI.h>
