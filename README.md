@@ -15,12 +15,12 @@ This restructured driver is now largely compatible with Adafruit GFX,
 so if you look at documentation, pls refer to the [Adafruit GFX documentation](https://learn.adafruit.com/adafruit-gfx-graphics-library).
 
 There's one difference, pixel coordinates and colours are given as 32bit numbers,
-whereas Adafruit GFX uses 16bit numbers. Take care.
+whereas Adafruit GFX uses 16bit numbers. Colours are still 565. Take care.
 
 Further differences:
 * sleep(), wakeup() - let the display go to sleep.
 * setBrightness() - control the backlight brightness, using a value 0..255
-* pushColor() - set on or more pixels by a 16bit value, after a call to setAddrWindow()
+* pushColor() - set one or more pixels by a 16bit value, after a call to setAddrWindow()
 * pushColors() - send an array of 16bit pixels, after a call to setAddrWindow()
 
 
